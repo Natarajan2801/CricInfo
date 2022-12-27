@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+a {
+  color: black;
+}
+
+/* Heading */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cric-icon{
+  color: green;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/*Containers*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*Page Section*/
+.colored-section {
+   background-color:  rgba(103, 142, 46, 0.694);
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-links {
+  font-size: 1.2rem;
+  font-family: "Monserrat light";
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title section*/
+#title {
+  background-color: rgba(103, 142, 46, 0.694);
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.rotate-15 {
+  width: 60%;
+  transform: rotate(15deg);
+  position: absolute;
+  border: 2px solid black;
+  right: 20%;
+}
+
+/* Features section */
+#features {
+  position: relative;
+}
+.feature-title {
+  font-size: 1.25rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: rgba(103, 142, 46, 0.694);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color:green;
+}
+
+/* Testimonials Section */
+
+
+/* #testimonials {
+  background-color: #ef8172;
+} */
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.live-action{
+  color: white;
+  text-decoration: none !important;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA section - styled with other css*/
+ 
+/* Footer Section*/
+.social-icon {
+  color: black;
+  margin: 20px 10px;
+}
+.social-icon:hover{
+  color:  rgba(103, 142, 46, 0.694);
+}
+
+.copyright {
+  font-size: x-small;
+  color: #8f8f8f;
+}
+
+/* Adding Media Query for responsive site for tablet and mobile view */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .rotate-15 {
+    position: static;
+    transform: rotate(0);
+  }
+}
